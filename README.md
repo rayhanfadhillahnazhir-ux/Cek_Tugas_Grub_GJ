@@ -1,3 +1,3 @@
 # project-inject
 tes yoloo
-acak ueeyshjegdusj
+acak ueeyshj
