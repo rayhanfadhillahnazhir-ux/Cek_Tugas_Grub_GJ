@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasir Kantin</title>
+</head>
+<body>
+    <h2>kantin smik</h2>
+
+    <p id="total"></p>
+    <p id="status"></p>
+    <p id="menu"></p>
+
+    <script>
+        let harga = 4500;
+        let jumlah = 7;
+        let total = harga * jumlah;
+
+        document.getElementById("total").innerHTML =
+            "Total harga 7 roti: Rp" + total;
+
+        let uang = 40000;
+
+        if (uang >= total) {
+            document.getElementById("status").innerHTML =
+                "Pembayaranmu berhasil";
+        } else {
+            document.getElementById("status").innerHTML =
+                "Uangmu ga cukup";
+        }
+
+        let daftar = "";
+
+        for (let i = 1; i <= 7; i++) {
+            daftar += "Roti ke-" + i + "<br>";
+        }
+
+        document.getElementById("menu").innerHTML =
+            "Daftar pembelian:<br>" + daftar;
+    </script>
+</body>
+</html>
