@@ -1,3 +1,4 @@
 # project-inject
 tes yoloo
-acak ueekkkk
+acak ueekkkkk
+Print("HELLO")
